@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="MauiApp1Net10.Tabbed"
+            xmlns:p="clr-namespace:MauiApp1Net10"
+            xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            android:TabbedPage.IsSwipePagingEnabled="False"
+            SelectedTabColor="Red"
+            BarTextColor="Blue"
+            BarBackgroundColor="{AppThemeBinding Light=#BCCCDC, Dark=#72e09a}"
+            Title="Tabbed">
+    <!--BarTextColor="Blue"
+            SelectedTabColor="Red"-->
+    <!--BarBackgroundColor="{AppThemeBinding Light=Red, Dark=Green}"-->
+    <TabbedPage.Children>
+        <NavigationPage x:Name="nav"
+                        Title="Tabbar"
+                        BarBackgroundColor="{AppThemeBinding Light=#BCCCDC, Dark=#72e09a}"
+                        IconImageSource="dotnet_bot.png">
+            <!--BarBackgroundColor ist Farbe der MaterialToolbar-->
+            <x:Arguments>
+                <p:MainPage />
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+</TabbedPage>
