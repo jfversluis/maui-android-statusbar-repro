@@ -54,15 +54,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Platforms\Android\Resources\values\styles.xml" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <AndroidResource Include="Platforms\Android\Resources\values\styles.xml" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.60" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.80-ci.pr35463.26265.21" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.7" />
 	</ItemGroup>
 
