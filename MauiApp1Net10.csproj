@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks>net10.0-android;net10.0-ios</TargetFrameworks>
@@ -54,7 +54,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.80-ci.pr35463.26269.2" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.80-ci.pr35463.26302.52" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.7" />
 	</ItemGroup>
 
@@ -74,3 +74,4 @@
 	</ItemGroup>
 
 </Project>
+
