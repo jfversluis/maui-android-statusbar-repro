@@ -54,7 +54,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.90-ci.pr35463.26319.7" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.90-ci.pr35463.26319.50" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.7" />
 	</ItemGroup>
 
